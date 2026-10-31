@@ -6,9 +6,9 @@ int main(void){
     char letter;
     int t1=0,t2=0;
     printf("Enter Words: \n");
-    printf("Player 1:\n");
+    printf("Player 1:");
     scanf("%s",s1);
-    printf("Player 2:\n");
+    printf("Player 2:");
     scanf("%s",s2);
     int score[26]={1, 3, 3, 2, 1, 4, 2, 4, 1, 8,
         5, 1, 3, 1, 1, 3, 10, 1, 1, 1,

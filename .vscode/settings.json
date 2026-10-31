@@ -1,0 +1,6 @@
+{
+  "gitdoc.enabled": true,
+  "gitdoc.filePattern": "**/*",
+  "gitdoc.autoPush": "onCommit",
+  "gitdoc.pushMode": "push"
+}
