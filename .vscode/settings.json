@@ -1,6 +1,9 @@
 {
   "gitdoc.enabled": true,
+  "gitdoc.autoCommitDelay": 1000,
   "gitdoc.filePattern": "**/*",
   "gitdoc.autoPush": "onCommit",
-  "gitdoc.pushMode": "push"
+  "gitdoc.pushMode": "push",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000
 }
