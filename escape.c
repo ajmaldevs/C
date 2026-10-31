@@ -2,5 +2,5 @@
 int main(void){
     //\r used here is the escape character
     printf("World\r Hello \n");
-    // output 
+    // output hello
 }
