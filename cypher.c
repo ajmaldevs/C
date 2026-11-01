@@ -14,6 +14,7 @@ int main(int argc,char *argv[]){
     char s[100];
     printf("Plaintext: ");
     fgets(s,sizeof(s),stdin);
+    printf("You Entered %s:",s);
     n=n%26;
     rotate(s,n);
 }
