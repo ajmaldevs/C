@@ -14,7 +14,7 @@ int main(int argc,char *argv[]){
     char s[100];
     char *s1=&s;
     printf("Plaintext: ");
-    scanf("%99s",s);
+    fgets(s,sizeof(s),stdin);
     n=n%26;
     rotate(s1,n);
 }
