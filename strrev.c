@@ -6,7 +6,7 @@ int main(){
     scanf("%s",s1);
     int len=strlen(s1);
     int j=0;
-    for(int i=len-1;i>=0;i++){
+    for(int i=len-1;i>=0;i--){
         s1[j]=s1[i];
         j++;
     }
