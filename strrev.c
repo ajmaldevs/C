@@ -10,4 +10,5 @@ int main(){
         s1[j]=s1[i];
         j++;
     }
+    printf("Reverse of a string is %s",s1);
 }
