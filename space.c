@@ -8,6 +8,7 @@ int main(){
         s1[i]=ch;
         i++;
     }
+    s1[i]='\0';
     int len=strlen(s1);
     for(int i=0;i<len;i++){
         printf("%c",s1[i]);
