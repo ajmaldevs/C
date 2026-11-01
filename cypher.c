@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
-#include <cs50.h>
 int only_digits(char *a);
 int rotate(char*,int);
 int main(int argc,char *argv[]){
@@ -12,7 +11,9 @@ int main(int argc,char *argv[]){
     int a=only_digits(argv[1]);
     if(a==1)return 1;
     int n=atoi(argv[1]);
-    string s1=get_string("plaintext: ");
+    char s1[100];
+    printf("Plaintext: ");
+    scanf("%99s",s1);
     n=n%26;
     rotate(s1,n);
 }
