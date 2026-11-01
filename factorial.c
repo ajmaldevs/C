@@ -9,5 +9,5 @@ int main(){
     int n;
     printf("Enter a number: ");
     scanf("%d",&n);
-    printf("Factorial=%d",facorial(n));
+    printf("Factorial=%d",factorial(n));
 }
