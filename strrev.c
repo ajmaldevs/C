@@ -11,4 +11,5 @@ int main(){
         j++;
     }
     printf("Reverse of a string is %s",s1);
+    return 0;
 }
