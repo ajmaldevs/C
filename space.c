@@ -4,7 +4,7 @@ int main(){
     char s1[50],ch;
     int i=0;
     printf("Enter a String: ");
-    while((ch==getchar())!='\n'){
+    while((ch=getchar())!='\n'){
         s1[i]=ch;
         i++;
     }
