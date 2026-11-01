@@ -11,10 +11,10 @@ int main(int argc,char *argv[]){
     int a=only_digits(argv[1]);
     if(a==1)return 1;
     int n=atoi(argv[1]);
-    char s1[100];
-    char *s1=
+    char s[100];
+    char *s1=&s;
     printf("Plaintext: ");
-    scanf("%99s",s1);
+    scanf("%99s",s);
     n=n%26;
     rotate(s1,n);
 }
