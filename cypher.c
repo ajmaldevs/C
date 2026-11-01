@@ -12,6 +12,7 @@ int main(int argc,char *argv[]){
     if(a==1)return 1;
     int n=atoi(argv[1]);
     char s1[100];
+    char *s1=
     printf("Plaintext: ");
     scanf("%99s",s1);
     n=n%26;
