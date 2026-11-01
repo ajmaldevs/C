@@ -12,11 +12,10 @@ int main(int argc,char *argv[]){
     if(a==1)return 1;
     int n=atoi(argv[1]);
     char s[100];
-    char *s1=&s;
     printf("Plaintext: ");
     fgets(s,sizeof(s),stdin);
     n=n%26;
-    rotate(s1,n);
+    rotate(s,n);
 }
 int only_digits(char *n){
     for(int i=0;n[i]!='\0';i++){
