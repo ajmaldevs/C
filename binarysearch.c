@@ -25,6 +25,6 @@ int main(){
     printf("Enter Target element: ");
     scanf("%d",&target);
     int res=binary(arr,n,target);
-    printf("Element found at %d",res);
+    printf("Element found at %d",res+1);
     return 0;
 }
