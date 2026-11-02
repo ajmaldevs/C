@@ -28,6 +28,8 @@ int main(){
     printf("Enter Target element: ");
     scanf("%d",&target);
     int res=binary(arr,n,target);
+    if (res==-1)
+        printf("Array element not found");
     printf("Element found at %d",res+1);
     return 0;
 }
