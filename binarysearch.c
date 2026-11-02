@@ -2,8 +2,8 @@
 int binary( int arr[],int n,int target){
     int low=0;
     int high=n-1;
-    int mid=(low+high)/2;
     while(low<=high){
+        int mid=(low+high)/2;
         if(arr[mid]==target){
             return mid;
         }
