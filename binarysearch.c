@@ -13,6 +13,9 @@ int binary( int arr[],int n,int target){
         else if(target<arr[mid]){
             high=mid-1;
         }
+        else{
+            return 
+        }
     }
 }
 int main(){
