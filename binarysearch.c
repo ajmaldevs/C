@@ -14,7 +14,7 @@ int binary( int arr[],int n,int target){
             high=mid-1;
         }
         else{
-            return 
+            return -1;
         }
     }
 }
