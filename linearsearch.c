@@ -15,7 +15,7 @@ int main(void){
         printf("Element not Found");
     }
     else{
-        printf("Element not found");
+        printf("Element found");
     }
     return 0;
 }
