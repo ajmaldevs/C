@@ -20,7 +20,7 @@ int main(){
     }
     for(int j=0;j<col;j++){
         sum=0;
-        for(int i=0;i<col;i++){
+        for(int i=0;i<row;i++){
             sum+=a[i][j];
         }
         printf("Column %d Sum : %d",j+1,sum);
