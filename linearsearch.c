@@ -12,7 +12,6 @@ int main(void){
     scanf("%d",&key);
     linearsearch(a,n,key);
     return 0;
-    
 }
 int linearsearch(int a[],int n,int key){
     for(int i =0;i<n;i++){
