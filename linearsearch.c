@@ -11,7 +11,7 @@ int main(void){
     printf("Enter Key Element: ");
     scanf("%d",&key);
     int res=linearsearch(a,n,key);
-    if(res)
+    if(res!=-1)
     return 0;
 }
 int linearsearch(int a[],int n,int key){
