@@ -14,6 +14,7 @@ int bsearch(int a[],int n,int key){
             high=mid-1;
         }
     }
+    return -1;
 }
 int main(void){
     int a[10],n,key;
