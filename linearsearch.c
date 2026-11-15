@@ -11,14 +11,16 @@ int main(void){
     printf("Enter Key Element: ");
     scanf("%d",&key);
     int res=linearsearch(a,n,key);
-    
+    if(res)
     return 0;
 }
 int linearsearch(int a[],int n,int key){
     for(int i =0;i<n;i++){
         if(a[i]==key){
-            printf("Element Found at Postion %d",i+1);
-            break;
+            return i+1;
+        }
+        else{
+            return -1;
         }
     }
     return 0;
