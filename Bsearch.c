@@ -3,7 +3,7 @@ int bsearch(int a[],int n,int key){
     int high,low,mid;
     high=n-1;
     low=0;
-    while(low=high){
+    while(low<=high){
         if(key==a[mid])
             return mid+1;
         else if(key>a[mid]){
