@@ -16,6 +16,7 @@ int linearsearch(int a[],int n,int key){
     for(int i =0;i<n;i++){
         if(a[i]==key){
             printf("Element Found at Postion %d",i+1);
+            break;
         }
         else{
             printf("Element Not Found");
