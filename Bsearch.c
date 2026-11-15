@@ -13,9 +13,6 @@ int bsearch(int a[],int n,int key){
         else if(key<a[mid]){
             high=mid-1;
         }
-        else{
-            return -1;
-        }
     }
 }
 int main(void){
