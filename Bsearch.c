@@ -6,7 +6,7 @@ int bsearch(int a[],int n,int key){
     mid=(low+high)/2;
     while(low>=high){
         if(key==a[mid])
-            return mid;
+            return mid+1;
         else if(key>a[mid]){
             low=mid+1;
         }
