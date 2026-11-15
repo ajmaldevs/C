@@ -24,9 +24,6 @@ int linearsearch(int a[],int n,int key){
         if(a[i]==key){
             return i+1;
         }
-        else{
-            return -1;
-        }
+       }
+          return -1;
     }
-    return 0;
-}
