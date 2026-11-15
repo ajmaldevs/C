@@ -15,6 +15,7 @@ int main(){
             a[j+1]=temp;
         }
     }
+    }
     printf("Sorted Array: ");
     for(int j=0;j<n;j++)
     printf("%d \n",a[j]);
