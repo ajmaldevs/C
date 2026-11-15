@@ -11,7 +11,7 @@ int main(void){
     printf("Enter Key Element: ");
     scanf("%d",&key);
     int res=linearsearch(a,n,key);
-    if(res!=-1){
+    if(res==-1){
         printf("Element Found at Position %d",res);
     }
     else{
