@@ -7,7 +7,9 @@ int main(){
     scanf("%d",&col);
     printf("Enter Array Elements: ");
     for(int i=0;i<row;i++){
-        for(int j=0;j<col;j++)
+        for(int j=0;j<col;j++){
+            scanf("%d",&a[i][j]);
+        }
     }
     for(int i=0;i<row;i++){
         sum=0;
