@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int a[10][10],n,row,col,dia,sum=0;
+    int a[10][10],n,row,col,dia=0,sum=0;
     printf("Enter number of Rows: ");
     scanf("%d",&row);
     printf("Enter number of Coulmns: ");
