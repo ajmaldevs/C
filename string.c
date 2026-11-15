@@ -6,6 +6,8 @@ int main(){
     fgets(s,sizeof(s),stdin);
     int j=0;
     for(int i=strlen(s);s[i]!='\0';i--){
-        
+        s1[j]=s[i];
+        j++;
     }
+    
 }
