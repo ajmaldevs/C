@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&row);
     printf("Enter number of Coulmns: ");
     scanf("%d",&col);
-    
+    printf("Enter Array Elements: ")
     for(int i=0;i<row;i++){
         sum=0;
         for(int j=0;j<col;j++){
