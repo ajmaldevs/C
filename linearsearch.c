@@ -21,4 +21,5 @@ int linearsearch(int a[],int n,int key){
             printf("Element Not Found");
         }
     }
+    return 0;
 }
