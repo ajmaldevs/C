@@ -32,6 +32,7 @@ int main(void){
     if(res==-1){
         printf("Element Not Found");
     }
-    printf("The Key Element Found at %d",res);
+    else 
+        printf("The Key Element Found at %d",res);
 
 }
