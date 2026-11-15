@@ -12,7 +12,7 @@ int main(void){
     scanf("%d",&key);
     int res=linearsearch(a,n,key);
     if(res==-1){
-        printf("Element Found at Position %d",res);
+        printf("Element not Found at Position %d",res);
     }
     else{
         printf("Element not found");
