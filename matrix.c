@@ -18,7 +18,7 @@ int main(){
         }
         printf("Row %d Sum : %d",i+1,sum);
     }
-    for(int j=0;j<row;j++){
+    for(int j=0;j<col;j++){
         sum=0;
         for(int i=0;i<col;i++){
             sum+=a[i][j];
