@@ -24,5 +24,5 @@ int main(){
             dia+=a[i][i];
         }
     }
-    printf("Matrix Sum = %d",sum);
+    printf("Matrix Sum = %d",dia);
 }
